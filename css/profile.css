@@ -10,6 +10,15 @@ html{
     
 }
 
+.duc{
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+#navbarNav ul li{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* Navigation Bar Section */
 /* .max-width{
     max-width: 1300px;
@@ -69,7 +78,7 @@ html{
     position: absolute;
     top: 0;
     right: 0;
-    background: url('../images/confi.jpeg') no-repeat center center/cover;
+    background: url('../images/Best-Full-Stack-Web-Development.jpg') no-repeat center center/cover;
     /* background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
@@ -82,35 +91,60 @@ html{
     display: flex;
     flex-direction: column;
     /* border: 1px solid white; */
-    align-items: center;
+    /* align-items: center; */
     position: absolute;
-    top: 30%;
-    right: 10%;
+    top: 20%;
+    right: 58%;
 }
+
+.main .headings{
+    font-family: cursive;
+}
+
 .headings{
-    font-family: century;
-    font-size: 2rem;
+    font-family: cursive;
+    font-size: 3rem;
+    color: #000;
     text-align: center;
     margin: 40px 0;
 }
 
-.btn{
+.main .btn{
+    width: 30%;
     padding: 10px 35px;
     background-color: transparent;
-    border: 1px solid #fff;
-    border-radius: 8px;
+    margin-left: 170px;
+    /* border: 1px solid #fff; */
+    /* border-radius: 8px; */
     color: #fff;
+    font-family: monospace;
     outline: none;
     transition: .6s ease;
-
 }
-.btn:hover{
+.main .btn:hover{
     cursor: pointer;
-    background-color: orangered;
-    color: #000;
-    box-shadow: 0 0 5px orangered, 0 0 10px orangered, 0 0 15px orangered;
+    background-color: #222;
+    color: #fff;
+    box-shadow: 0 0 5px #222, 0 0 10px #222, 0 0 15px #222;
     font-weight: bold;
     border: none;
+}
+
+.icon ul li{
+    list-style: none;
+}
+
+.icon ul i{
+    padding: 10px;
+    color: #fff;
+}
+
+.icon i{
+    font-size: 30px;
+}
+
+.icon li{
+    list-style: none;
 }
 
 
@@ -145,21 +179,22 @@ html{
 }
 .abbtn{
     width: 30%;
+    font-family: monospace;
     padding: 10px 15px;
     border-radius: 8px;
     margin-top: 15px;
     background-color: skyblue;
     border: 1px solid #fff;
-    color: orangered;
+    color: #222;
     outline: none;
     transition: .6s ease;
 
 }
 .abbtn:hover{
     cursor: pointer;
-    background-color: orangered;
-    color: #000;
-    box-shadow: 0 0 5px orangered, 0 0 10px orangered, 0 0 15px orangered;
+    background-color: #222;
+    color: #fff;
+    box-shadow: 0 0 5px #222, 0 0 10px #222, 0 0 15px #222;
     font-weight: bold;
     border: none;
 }
@@ -168,7 +203,7 @@ html{
 #portfolio{
     display: flex;
     flex-direction: column;
-    background: #222;
+    background: #ffffff;
     /* background-color: rgba(0, 0, 0, 0.9); */
     color: #fff;
     align-items: center;
@@ -220,7 +255,7 @@ html{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: orangered;
+    color: skyblue;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -235,6 +270,9 @@ html{
 }
 .services .serv-content .card:hover{
     background: skyblue;
+    color: #000;
+}
+.services .serv-content .card:hover i{
     color: #000;
 }
 
@@ -294,7 +332,7 @@ html{
     height: 100%;
     font-family: 'Poppins', sans-serif;
     padding: 20px 0;
-    background: #222;
+    background: #fff;
 }
 .skills-content{
     position: relative;
@@ -333,17 +371,16 @@ html{
     padding: 20px 0;
     color: #fff;
 }
-.skills .skills-content .left a{
-    background: orangered;
+/* .skills .skills-content .left a{
+    background: skyblue;
     color: #fff;
     font-size: 15px;
     font-weight: 400;
     padding: 8px 16px;
     border-radius: 6px;
     border: 2px solid orangered;    
-}
+} */
 .skills .skills-content .left a:hover{
-    color: orangered;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -353,7 +390,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
+    color: #222;
 }
 .skills .skills-content .right .span{
     font-weight: 500;
@@ -371,7 +408,7 @@ html{
     height: 100%;
     left: 0;
     top: 0;
-    background: orangered;
+    background: #000;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -401,8 +438,9 @@ html{
     /* background-color: rgba(0, 0, 0, 0.9);
     color: #fff; */
     padding: 20px;
+    align-items: center;
 }
-.form-label{
+/* .form-label{
     font-weight: bolder;
 }
 .details .mb-3{
@@ -442,11 +480,11 @@ html{
 #send:hover{
     cursor: pointer;
     box-shadow: 0 0 10px #fff;
-}
+} */
 
 .footer{
     width: 100%;
-    background: orangered;
+    background: #222;
 }
 .footer-content{
     /* width: 100%; */
@@ -458,6 +496,7 @@ html{
 
 .footer-content ul li{
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-content ul i{
@@ -476,6 +515,15 @@ html{
     font-size: 20px;
     font-weight: bolder;
     padding-top: 30px;
+    color: #fff;
+}
+
+.foot{
+    color: #fff;
+}
+
+.foot i{
+    color: #fff;
 }
 
 .social ul{
@@ -490,6 +538,10 @@ html{
 
 
 @media screen and (max-width: 1200px) {
+    .icon{
+        display: none;
+    }
+
     #about{
         display: flex;
         flex-direction: column;
@@ -536,6 +588,10 @@ html{
 }
 
 @media screen and (max-width: 800px) {
+    .icon{
+        display: none;
+    }
+
     #about{
         display: flex;
         flex-direction: column;
@@ -582,6 +638,10 @@ html{
 }
 
 @media screen and (max-width: 600px) {
+    .icon{
+        display: none;
+    }
+
     #about{
         /* display: flex;
         flex-direction: column; */
@@ -701,6 +761,10 @@ html{
 }
 
 @media screen and (max-width: 425px) {
+    .icon{
+        display: none;
+    }
+
     #about{
         /* display: flex;
         flex-direction: column; */
