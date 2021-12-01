@@ -994,9 +994,14 @@ html{
         .icon{
             display: none;
         }
+
+        .main .name{
+            font-size: 20px;
+            font-weight: bolder;
+        }
     
         .skills{
-            margin-bottom: 100px;
+            margin-bottom: 110px;
         }
     
         }
@@ -1006,7 +1011,7 @@ html{
             right: 60px;
         }
         .main .name{
-            font-size: 20px;
+            font-size: 15px;
             font-weight: bolder;
         }
     
